@@ -3,134 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Lakshmi Sowmya Devalla</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f8ff;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4682b4;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px 0;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        .section h2 {
-            color: #4682b4;
-            border-bottom: 2px solid #4682b4;
-            padding-bottom: 5px;
-        }
-        .info {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .info div {
-            margin-bottom: 10px;
-        }
-        .skills, .experience, .projects, .certifications {
-            padding-left: 20px;
-        }
-        .skills li, .experience li, .projects li, .certifications li {
-            margin-bottom: 10px;
-        }
-        footer {
-            background-color: #4682b4;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Lakshmi Sowmya Devalla - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Lakshmi Sowmya Devalla</h1>
-        <div class="info">
-            <div>📞 9885474419</div>
-            <div>📍 Hyderabad, Telangana</div>
-            <div>✉️ <a href="mailto:sowmyadevalla49@gmail.com" style="color: white;">sowmyadevalla49@gmail.com</a></div>
-            <div>🔗 <a href="https://www.linkedin.com/in/sowmya-devalla" style="color: white;">LinkedIn</a></div>
-            <div>🔗 <a href="https://github.com/Sowmyadevalla2005" style="color: white;">GitHub</a></div>
+
+    <section id="about" class="hero">
+        <div class="container">
+            <h2>Hi, I'm Lakshmi Sowmya Devalla</h2>
+            <p class="tagline">AI/ML Engineer | Full-Stack Developer | Problem Solver</p>
+            <p class="description">Building intelligent systems at the intersection of deep learning and scalable web applications.</p>
+            <!-- Add a call to action or more info link here if desired -->
         </div>
-    </header>
-    <div class="container">
-        <div class="section">
-            <h2>Objective</h2>
-            <p>An independent and self-motivated hardworking individual dedicated towards goals.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education <span class="toggle-icon">&#9660;</span></h2>
+        <div class="section-details">
+            <div>
+                <h3>Vasavi College of Engineering, Hyderabad</h3>
+                <p>Bachelor of Technology in Computer Science (AI/ML Specialization)</p>
+                <p>2022–2026 | CGPA: 9.02/10</p>
+            </div>
+            <div>
+                <h3>Sri Prakash Junior College, Andhra Pradesh</h3>
+                <p>AP Board of Intermediate Education</p>
+                <p>2020–2022 | 96.30%</p>
+            </div>
         </div>
-        <div class="section">
-            <h2>Education</h2>
-            <p><strong>Bachelor of Computer Science</strong>, Vasavi College of Engineering, Hyderabad <span style="float: right;">2022-2026</span></p>
-            <p>Relevant Coursework: Artificial Intelligence and Machine Learning <span style="float: right;">8.93</span></p>
-            <p><strong>Higher Secondary Education</strong>, Sriprakash Junior College, Andhra Pradesh <span style="float: right;">2020-2022</span></p>
-            <p>Relevant Coursework: M.P.C <span style="float: right;">96.3%</span></p>
-        </div>
-        <div class="section">
-            <h2>Skills and Interests</h2>
-            <ul class="skills">
-                <li><strong>Languages:</strong> SQL, C, C++, Java, Python, Data structures, Algorithms, HTML/CSS</li>
-                <li><strong>Tools:</strong> Software development tools IDE’s, GIT, MySQL, SQLite</li>
-                <li><strong>Platforms:</strong> Linux, Web, Windows</li>
-                <li><strong>Soft Skills:</strong> Adaptable, Interpersonal, Teamwork and Collaboration, Leadership</li>
-                <li><strong>Interests:</strong> Data Science, Data Analytics, Deep Learning</li>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills <span class="toggle-icon">&#9660;</span></h2>
+        <div class="section-details">
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, JavaScript, Java, C++</li>
+                <li><strong>Machine Learning:</strong> TensorFlow, PyTorch, Keras, scikit-learn, NLP (BERT, Transformers)</li>
+                <li><strong>Systems:</strong> Unix/Linux, Distributed Systems, TCP/IP, Large-Scale Design</li>
+                <li><strong>Web Development:</strong> React.js, Node.js, Express.js, REST APIs, GraphQL</li>
+                <li><strong>Databases:</strong> MongoDB, PostgreSQL, MySQL, Firebase</li>
+                <li><strong>Tools & Platforms:</strong> Git, Docker, AWS (S3, EC2), Google Colab, Jupyter Notebook</li>
+                <li><strong>Data Science:</strong> Pandas, NumPy, Matplotlib, OpenCV, Data Visualization</li>
             </ul>
         </div>
-        <div class="section">
-            <h2>Experience</h2>
-            <ul class="experience">
-                <li><strong>Teaching Assistant</strong> <span style="float: right;">Nov 2023 - Mar 2024</span><br>National Service Scheme, Hyderabad, Telangana<br>
-                    <ul>
-                        <li>Volunteered to tutor Maths and Science subjects for students of government schools to prepare them for their board exams through Aksharamala Program.</li>
-                        <li>Helped students in clarifying their doubts.</li>
-                    </ul>
-                </li>
-                <li><strong>Internshala Student Partner</strong> <span style="float: right;">Mar 2023 - May 2024</span><br>Internshala, Hyderabad, Telangana<br>
-                    <ul>
-                        <li>Participated in social media branding campaigns.</li>
-                        <li>Motivated students to go for online trainings in helping them to upskill themselves.</li>
-                    </ul>
-                </li>
-                <li><strong>Public Relations Co-ordinator</strong> <span style="float: right;">Sep 2023 - Present</span><br>Swayam ED-Cell, Vasavi College of Engineering, Hyderabad<br>
-                    <ul>
-                        <li>Working with the team in reaching out to guests for our college E-cell events.</li>
-                    </ul>
-                </li>
+    </section>
+
+    <section id="projects">
+        <h2>Technical Projects <span class="toggle-icon">&#9660;</span></h2>
+        <div class="section-details">
+            <div class="project" data-title="NLP-Powered MultiPDF Chat Application " data-details="Developed natural language processing application using BERT embeddings and cosine similarity to enable semantic search across PDF documents with 90%+ accuracy|Optimized document processing pipeline to handle 50+ page PDFs with sub-second response time|Implemented interactive web interface using Streamlit with user authentication and session management">
+                <h3>NLP-Powered MultiPDF Chat Application </h3>
+                <p><a href="https://github.com/Sowmyadevalla2005/Multipdf-chat-app" target="_blank">View Code</a></p>
+                <ul>
+                    <li>Developed natural language processing application using BERT embeddings and cosine similarity to enable semantic search across PDF documents with 90%+ accuracy</li>
+                    <li>Optimized document processing pipeline to handle 50+ page PDFs with sub-second response time</li>
+                    <li>Implemented interactive web interface using Streamlit with user authentication and session management</li>
+                </ul>
+            </div>
+            <div class="project" data-title="Real Estate Recommendation Platform " data-details="Built full-stack application using MERN stack (MongoDB, Express, React, Node) with personalized recommendations|Designed REST APIs handling 10,000+ property listings with response times under 300ms through query optimization|Implemented secure authentication using JWT tokens and Google OAuth integration">
+                <h3>Real Estate Recommendation Platform </h3>
+                <p><a href="https://github.com/KovaliKusam/real-estate" target="_blank">View Code</a></p>
+                <ul>
+                    <li>Built full-stack application using MERN stack (MongoDB, Express, React, Node) with personalized recommendations</li>
+                    <li>Designed REST APIs handling 10,000+ property listings with response times under 300ms through query optimization</li>
+                    <li>Implemented secure authentication using JWT tokens and Google OAuth integration</li>
+                </ul>
+            </div>
+            <div class="project" data-title="Computer Vision: Face Mask Detection System " data-details="Developed CNN model using TensorFlow and Keras achieving 98% accuracy in real-time detection|Augmented dataset by 5,000+ samples using image transformations (rotation, flipping, zoom)|Optimized model for edge deployment with 30% parameter reduction while maintaining accuracy">
+                <h3>Computer Vision: Face Mask Detection System </h3>
+                <p><a href="https://github.com/KovaliKusam/FaceMaskDetection" target="_blank">View Code</a></p>
+                <ul>
+                    <li>Developed CNN model using TensorFlow and Keras achieving 98% accuracy in real-time detection</li>
+                    <li>Augmented dataset by 5,000+ samples using image transformations (rotation, flipping, zoom)</li>
+                    <li>Optimized model for edge deployment with 30% parameter reduction while maintaining accuracy</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="growing-in">
+        <h2>Currently Growing In <span class="toggle-icon">&#9660;</span></h2>
+        <div class="section-details">
+            <ul>
+                <li>Large Language Model Fine-tuning</li>
+                <li>Cloud Architecture (AWS/GCP)</li>
+                <li>Distributed Systems</li>
             </ul>
         </div>
-        <div class="section">
-            <h2>Projects</h2>
-            <ul class="projects">
-                <li><strong>TIC TAC TOE Game:</strong> Created a C++ Tic-Tac-Toe game with AI using Minimax Algorithm, emphasizing clean code and robust error handling.</li>
-                <li><strong>ONLINE VOTING SYSTEM:</strong> Implemented an online voting system in C using linked lists with secure voting admin access, vote counting, and winner determination.</li>
-                <li><strong>MULTITHREADED WEB CRAWLER:</strong> Implemented an OS-related project in C++ focusing on multithreading and performance optimization.</li>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements <span class="toggle-icon">&#9660;</span></h2>
+        <div class="section-details">
+            <ul>
+                <li>Ranked Top 5% in iAspire Accenture Gold Challenge among 10,000+ participants</li>
+                <li>Achieved 95%+ accuracy in Kaggle Machine Learning competition (Image Classification)</li>
+                <li>Selected for Stage 2 of Providence Leap Ideathon (Healthcare ML solution)</li>
+                <li>Successfully solved 250+ problems on different platforms</li>
             </ul>
         </div>
-        <div class="section">
-            <h2>Certifications</h2>
-            <ul class="certifications">
-                <li><strong>Problem Solving through Programming using C</strong> - NPTEL IIT Kharagpur <span style="float: right;">Jan 2023 - Apr 2023</span></li>
-                <li><strong>The Joy of Computing using Python</strong> - NPTEL IIT Madras <span style="float: right;">Jul 2023 - Oct 2023</span></li>
-                <li><strong>CPA - Programming Essentials in C++</strong> - Cisco Networking Academy <span style="float: right;">Nov 2023 - Dec 2023</span></li>
-                <li><strong>Technical Leadership and Tech Career Skills</strong> - LinkedIn <span style="float: right;">Mar 2024 - Apr 2024</span></li>
-            </ul>
+    </section>
+
+    <section id="connect">
+        <h2>Let's Connect! <span class="toggle-icon">&#9660;</span></h2>
+        <div class="section-details">
+            <div class="connect-options">
+                <p>I'm always excited to:</p>
+                <ul>
+                    <li>🤝 Collaborate on innovative projects</li>
+                    <li>💡 Discuss AI/ML or full-stack development</li>
+                    <li>🎯 Help with problem-solving or code reviews</li>
+                    <li>☕ Chat about tech trends over virtual coffee</li>
+                </ul>
+                <p>Seriously - no hesitation needed! Whether you have a question, opportunity, or just want to say hi, I'd love to hear from you.</p>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/sowmya-devalla/" target="_blank">LinkedIn</a>
+                    <a href="mailto:sowmyadevalla49@gmail.com">Email</a>
+                    <span>+91 9885474419</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Lakshmi Sowmya Devalla. All rights reserved.</p>
+    </footer>
+
+    <!-- Project Modal Structure -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3 id="modal-project-title">Project Title</h3>
+            <div class="modal-project-media">
+                <!-- Project media (image/video) will be loaded here -->
+                <!-- <img src="" alt="Project Image"> -->
+            </div>
+            <div id="modal-project-details">
+                <!-- Project details will be loaded here -->
+            </div>
         </div>
     </div>
-    <footer>
-        &copy; 2024 Lakshmi Sowmya Devalla
-    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html> 
